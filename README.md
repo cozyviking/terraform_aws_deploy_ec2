@@ -7,6 +7,11 @@ The default region `us-east-1` can be changed in variables.tf.
 
 After a successful `terraform plan` and `terraform apply`, the server's private and public IP will be printed for easy access (see outputs.tf for more details).
 
+Notes
+-------
+
+Before using this execution plan, make sure you modify the SSH public_key in key_pair.tf as this will be used for accessing your EC2 instance! 
+
 Usage
 -------
 
